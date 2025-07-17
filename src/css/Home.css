@@ -1,0 +1,50 @@
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+    max-width: 600px;
+}
+
+.content h1{
+    font-size: 90px;
+    color: white;
+    animation-delay:0.5s
+}
+
+.content p{
+    margin: 10px 0 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    animation-delay:1s
+}
+
+.content .download-button{
+    padding: 15px 60px;
+    font-size: 20px;
+    animation-delay:1.3s
+}
+
+.feature-img{
+    padding-left: 100px;
+    width:800px;
+    height:600px;
+    position: absolute;
+    bottom:0 ;
+    right:0;
+}
+
+.feature-img .anim{
+    animation-delay:1.5s;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
