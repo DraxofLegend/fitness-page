@@ -26,9 +26,9 @@
 .feature-img{
     padding-left: 100px;
     width:800px;
-    height:600px;
+    height: 600px;
     position: absolute;
-    bottom:0 ;
+    bottom:-30px;
     right:0;
 }
 
